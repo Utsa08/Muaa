@@ -1,0 +1,28 @@
+.Card_body{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(246,243,239);
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Card{
+    /* border: 0.1px solid black; */
+    width:394.700px;
+    height: 383px;
+}
+
+.card_image{
+    width:394.700px;
+    height: 383px;
+    filter: brightness(70%);
+}
+
+.card-text{
+    position: relative;
+    bottom: 210px;
+    left: 160px;
+    font-size: 25px;
+    color: white;
+}

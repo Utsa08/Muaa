@@ -1,0 +1,19 @@
+
+.product_header {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 610px;
+  /* color: rgb(188, 76, 42); */
+}
+
+.main_body_product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.productpage_body{
+    margin-bottom: 90px;
+}

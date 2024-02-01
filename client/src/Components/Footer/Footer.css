@@ -1,0 +1,57 @@
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.footer{
+    height: 400px;  
+}
+
+.name{
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(188, 76, 42);
+    position: relative;
+    margin-top: 80px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    height: 250px;
+}
+
+.muaa-button {
+    position: relative;
+    height:50px;
+    width: 150px;
+    background-color: transparent;
+    transition:0.5s;
+    border: 2px solid rgb(188, 76, 42);
+    color: rgb(188, 76, 42);
+  }
+  
+  .muaa-button:hover{
+      background-color: rgb(188, 76, 42);
+      cursor: pointer;
+      color:white
+  }
+
+.join{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.endblock{
+    text-align: center;
+    height: 35px;
+    padding-top: 10px;
+    color: rgb(188, 76, 42);
+    background-color: rgb(246,243,239);
+}

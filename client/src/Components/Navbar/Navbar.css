@@ -1,0 +1,94 @@
+.nav {
+  margin-bottom: 30px;
+}
+
+.upper_nav {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 50px;
+}
+
+.nav_search {
+  background-color: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgb(188, 76, 42);
+  outline: none;
+  height: 24px;
+  width: 199.6px;
+  font-size: 16px;
+  color: rgb(188, 76, 42);
+  padding: 10px;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(188, 76, 42);
+  position: relative;
+  right: 70px;
+}
+
+.search_container {
+  height: 30px;
+  text-align: end;
+  /* border: 2px solid red; */
+}
+
+.side {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: rgb(188, 76, 42);
+  position: relative;
+  right: 50px;
+}
+
+.login_button {
+  margin-right: 30px;
+  position: relative;
+  top: 20px;
+}
+
+.cart_button {
+  position: relative;
+  top: 20px;
+}
+
+.lower_nav_elements {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 450px;
+  margin-right: 450px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav_button {
+  transition: 0.5s;
+}
+
+.nav_button:hover {
+  color: rgb(188, 76, 42);
+  cursor: pointer;
+}
+
+.icon{
+  font-size: 20px;
+}
+
+.icon_button{
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}

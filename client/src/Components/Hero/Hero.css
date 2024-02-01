@@ -1,0 +1,29 @@
+.hero {
+  /* border: 2px solid black; */
+  height: 470px;
+  padding-left: 260px;
+  padding-top: 70px;
+}
+
+.hero_image {
+  width: 1050px;
+  height: 400px;
+}
+
+.muaa_button {
+  position: relative;
+  bottom: 200px;
+  left: 420px;
+  height:50px;
+  width: 160px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition:0.5s;
+}
+
+.muaa_button:hover{
+    background-color: white;
+    color: rgb(188, 76, 42);
+    cursor: pointer;
+}
